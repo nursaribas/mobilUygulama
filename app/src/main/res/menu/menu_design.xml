@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/oyun"
+        android:title="oyun"
+        app:showAsAction="never"
+        android:drawableLeft="@drawable/ic_action_game"
+        />
+    <item
+        android:id="@+id/duyuru"
+        android:title="duyuru"
+        app:showAsAction="never"
+        android:drawableLeft="@drawable/ic_action_duyuru"
+        />
+    <item
+        android:id="@+id/obs_giris"
+        android:title="Obsgiris"
+        app:showAsAction="never"
+        android:drawableLeft="@drawable/ic_action_obs"
+        />
+    <item
+        android:id="@+id/akademikPersonel"
+        android:title="akademik personel"
+        app:showAsAction="never"
+        android:drawableLeft="@drawable/ic_action_akpersonel"
+        />
+    <item
+        android:id="@+id/mezun_ogrenci"
+        android:title="mezun öğrenci"
+        app:showAsAction="never"
+        android:drawableLeft="@drawable/ic_action_mezun"
+        />
+    <item
+        android:id="@+id/fakulteler"
+        android:title="fakulte"
+        app:showAsAction="never"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/muhendislik"
+                android:title="muhendislik fakultesi"
+                />
+            <item
+                android:id="@+id/egitim"
+                android:title="egitim fakultesi"
+                />
+            <item
+                android:id="@+id/ilahiyat"
+                android:title="ilahiyat fakultesi"
+                />
+            <item
+                android:id="@+id/tıp"
+                android:title="tıp fakultesi"
+                />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/yemekhane"
+        android:title="yemekhane"
+        app:showAsAction="never"
+        android:drawableRight="@drawable/ic_action_yemekhane"
+        />
+
+    <item
+        android:id="@+id/harita"
+        android:title="harita"
+        app:showAsAction="never"
+        android:drawableLeft="@drawable/ic_action_harita"
+        />
+    <item
+        android:id="@+id/hesapMakinesi"
+        android:title="Hesap Makinesi"
+        app:showAsAction="never"
+        android:drawableRight="@drawable/ic_action_hesap"
+
+        />
+
+
+
+
+
+
+
+</menu>

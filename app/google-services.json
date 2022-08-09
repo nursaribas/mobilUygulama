@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "930166738843",
+    "project_id": "harranguideprojectt",
+    "storage_bucket": "harranguideprojectt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930166738843:android:eae692e03e20a8b17d1b3e",
+        "android_client_info": {
+          "package_name": "com.example.harranguideprojectt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930166738843-0m65ha94g1tbtb2dkrr5021kuv38ai5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAkAc1C8HgrhiZRqc02-E_GktB3sTg4qA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930166738843-0m65ha94g1tbtb2dkrr5021kuv38ai5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

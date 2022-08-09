@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity"
+    android:background="@color/white_200">
+
+
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:layout_width="394dp"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:src="@drawable/resim1" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:padding="20dp"
+                android:src="@drawable/resim2" />
+
+            <ImageView
+                android:padding="20dp"
+                android:src="@drawable/resim3"
+                android:layout_width="400dp"
+                android:layout_height="200dp"/>
+            <ImageView
+                android:padding="10dp"
+                android:src="@drawable/resim4"
+                android:layout_width="300dp"
+                android:layout_height="350dp"/>
+
+            <ImageView
+                android:padding="20dp"
+                android:src="@drawable/resim5"
+                android:layout_width="400dp"
+                android:layout_height="200dp"/>
+            <ImageView
+                android:padding="20dp"
+                android:src="@drawable/resim6"
+                android:layout_width="400dp"
+                android:layout_height="200dp"/>
+            <ImageView
+                android:padding="20dp"
+                android:src="@drawable/resim7"
+                android:layout_width="400dp"
+                android:layout_height="200dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="290dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="textPersonName"
+        android:text=" Sayılarla Harran"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="110dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+        android:background="@color/blue"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:text="\n14\nFakülte"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="110dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="350dp"
+        android:background="@color/blue"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:text="\n14\nMYO"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="23dp"/>
+    <TextView
+        android:id="@+id/editTextTextMultiLine3"
+        android:layout_width="110dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="350dp"
+        android:background="@color/blue"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:text="\n5\nYO"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="23dp"/>
+    <TextView
+        android:id="@+id/editTextTextMultiLine4"
+        android:layout_width="110dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="470dp"
+        android:background="@color/blue"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:text="\n3\nEnstitü"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="23dp"/>
+    <TextView
+        android:id="@+id/editTextTextMultiLine5"
+        android:layout_width="110dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="470dp"
+        android:background="@color/blue"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:text="421\nProgram Sayısı"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="23dp"/>
+    <TextView
+        android:id="@+id/editTextTextMultiLine6"
+        android:layout_width="110dp"
+        android:layout_height="92dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="470dp"
+        android:background="@color/blue"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textMultiLine"
+        android:text="16\nAraştırma ve Uygulama Merkezi"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+</RelativeLayout>
+
+
+
+

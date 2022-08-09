@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white_200"
+    tools:context=".AkademikPActivity">
+
+    <ImageView
+        android:id="@+id/ak1"
+        android:layout_width="196dp"
+        android:layout_height="152dp"
+        android:layout_above="@+id/ak3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="143dp"
+        android:layout_marginBottom="14dp"
+        app:srcCompat="@drawable/mhoca" />
+
+    <ImageView
+        android:id="@+id/ak2"
+        android:layout_width="189dp"
+        android:layout_height="114dp"
+        android:layout_above="@+id/ButtonAkademisyen"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="61dp"
+        app:srcCompat="@drawable/uhoca" />
+
+    <ImageView
+        android:id="@+id/ak3"
+        android:layout_width="197dp"
+        android:layout_height="117dp"
+        android:layout_above="@+id/ak2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="13dp"
+        app:srcCompat="@drawable/shoca" />
+
+    <ImageView
+        android:id="@+id/ak4"
+        android:layout_width="197dp"
+        android:layout_height="143dp"
+        android:layout_above="@+id/ak5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="13dp"
+        android:layout_toEndOf="@+id/ak1"
+        app:srcCompat="@drawable/nhoca" />
+
+    <ImageView
+        android:id="@+id/ak5"
+        android:layout_width="198dp"
+        android:layout_height="158dp"
+        android:layout_above="@+id/ak6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="9dp"
+        android:layout_toEndOf="@+id/ak3"
+        app:srcCompat="@drawable/khoca" />
+
+    <ImageView
+        android:id="@+id/ak6"
+        android:layout_width="192dp"
+        android:layout_height="169dp"
+        android:layout_above="@+id/ButtonAkademisyen"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="32dp"
+        android:layout_toEndOf="@+id/ak2"
+        app:srcCompat="@drawable/bhoca" />
+
+    <Button
+        android:id="@+id/ButtonAkademisyen"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="43dp"
+        android:text="Daha Fazlası İçin" />
+
+
+</RelativeLayout>

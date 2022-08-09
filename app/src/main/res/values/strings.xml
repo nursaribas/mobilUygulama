@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HarranGuidePRojectt</string>
+    <string name="login">Giriş</string>
+    <string name="password">Parola</string>
+    <string name="email">E-posta</string>
+    <string name="tag">proje</string>
+    <string name="register">Kaydol</string>
+    <string name="re_type_password">Şifreyi Yeniden Yazın</string>
+    <string name="your_name">Tam Ad</string>
+    <string name="kayıtOl">KayıtOl</string>
+    <string name="actionRegister">hesap olustur</string>
+    <string name="hakkında">Harran Üniversitesi’nin yer aldığı Şanlıurfa, günümüzden on bir bin yıl öncesine dayanan tarihiyle Anadolu’nun en eski kentlerinden biridir.  </string>
+    <string name="hesapOlustur">hesap oluştur </string>
+    <string name="twitter">https://twitter.com/mehmet_s_celik </string>
+    <string name="facebook">https://www.facebook.com/hrumedya/</string>
+    <string name="insta">https://www.instagram.com/hrumedya/ </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="map_key" translatable="false">AIzaSyCUX6eMVsOtvFOpWRYwZFzSq1R5AWLXCe8</string>
+</resources>
